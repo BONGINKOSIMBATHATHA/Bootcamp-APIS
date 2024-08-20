@@ -1,0 +1,77 @@
+body{
+   background-color: darkgrey; 
+}
+
+/* General styling for the container and header */
+
+.container {
+    margin-top: 20px;
+}
+
+.header h1 {
+    text-align: center;
+    color: #2c3e50;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Styling for the cards */
+.card {
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Button styling */
+.btn {
+    background-color: #000000 !important;
+    color: #ffffff !important;
+    text-transform: uppercase;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #333333 !important;
+}
+
+/* Input field labels */
+.input-field label {
+    color: #555 !important;
+}
+
+/* Active input labels */
+.input-field input[type=text]:focus + label {
+    color: #000 !important;
+}
+
+/* Underline style for input fields */
+.input-field input[type=text]:focus {
+    border-bottom: 2px solid #000 !important;
+    box-shadow: none;
+}
+
+/* Style for the chips */
+.chip {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Specific styling for the blue lighten-4 chips */
+.chip.blue.lighten-4 {
+    background-color: #bbdefb;
+    color: #0d47a1;
+}
+
+/* Specific styling for the green lighten-4 chips */
+.chip.green.lighten-4 {
+    background-color: #c8e6c9;
+    color: #2e7d32;
+}
+
+/* Additional styling for button container */
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
